@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning system for detecting Hepatitis B  in Humans</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-virus"></i> Machine Learning system for detecting Hepatitis B  in Humans</h1>
+        </header>
+        <main>
+            <section id="landing" class="active">
+                <h2>Welcome to the Machine Learning system for detecting Hepatitis B in Humans Tool</h2>
+                <p>This questionnaire will help detect your risk for Hepatitis B. Please answer all questions honestly for the most accurate results.</p>
+                <button id="start-btn" class="btn">Start Detecting <i class="fas fa-arrow-right"></i></button>
+            </section>
+            <section id="questionnaire" class="hidden">
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <div id="question-container">
+                    <!-- Questions will be dynamically inserted here -->
+                </div>
+                <div id="navigation">
+                    <button id="prev-btn" class="btn" disabled><i class="fas fa-arrow-left"></i> Previous</button>
+                    <button id="next-btn" class="btn">Next <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </section>
+            <section id="results" class="hidden">
+                <h2>Your Results</h2>
+                <div id="risk-level"></div>
+                <div id="confidence-score"></div>
+                <div id="key-symptoms"></div>
+                <div id="recommendations"></div>
+                <button id="restart-btn" class="btn"><i class="fas fa-redo"></i> Restart Detecting</button>
+            </section>
+        </main>
+        <footer>
+            <p>All right reserved &copy; 2024 Machine Learning system for detecting Hepatitis B  in Humans || Aminu Muhammad</p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
