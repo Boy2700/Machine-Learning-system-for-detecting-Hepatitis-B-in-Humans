@@ -3,7 +3,7 @@
     --plasma-yellow: #FFFFE0;
     --white-cell: #F5F5F5;
     --platelet-purple: #8E4585;
-    --vein-blue: #4169E1;
+    --vein-blood: #b70000;
     --background-color: #FFF5F5;
     --text-color: #333;
     --error-color: #FF3333;
@@ -47,7 +47,7 @@ h1 {
 
 .btn {
     display: inline-block;
-    background-color: var(--vein-blue);
+    background-color: var(--vein-blood);
     color: var(--white-cell);
     padding: 10px 20px;
     border: none;
@@ -107,7 +107,7 @@ h1 {
     flex: 1;
     text-align: center;
     padding: 10px;
-    border: 2px solid var(--vein-blue);
+    border: 2px solid var(--vein-blood);
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -120,7 +120,7 @@ h1 {
 }
 
 .option.selected {
-    background-color: var(--vein-blue);
+    background-color: var(--vein-blood);
     color: var(--white-cell);
 }
 
@@ -191,7 +191,7 @@ footer {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 200px;
-    background-color: var(--vein-blue);
+    background-color: var(--vein-blood);
     color: var(--white-cell);
     text-align: center;
     border-radius: 6px;
